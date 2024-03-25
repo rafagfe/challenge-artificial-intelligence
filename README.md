@@ -44,17 +44,11 @@ Baseado nas interações analise as dificuldades e gere conteúdos dinâmicos cu
 - Eficiência na manipulação de diferentes tipos de dados (textos, PDFs, vídeos).
 - Competência na construção de prompts de IA que geram conteúdos adaptativos dinâmicos.
 - Capacidade de integrar diferentes componentes do sistema (indexação, interface de usuário, geração de conteúdo) de forma coesa.
-- Habilidade para criar interfaces interativas que sejam intuitivas e facilmente navegáveis pelo usuário final.
-
-# Desejável
-- Desenvolvimento de Interface de Usuário
 
 # Diferenciais
 - Avaliação da capacidade do sistema em identificar corretamente as dificuldades dos usuários e adaptar o conteúdo de aprendizagem conforme necessário.
 - Relevância, informatividade e adaptação do conteúdo gerado ao nível de conhecimento do usuário.
 - Performance do sistema em diferentes condições de uso e sua capacidade de escalar conforme o aumento do número de usuários.
-
-
 
 # Instruções de entrega
 1. Crie um fork do repositório no seu GitHub
@@ -66,6 +60,3 @@ Baseado nas interações analise as dificuldades e gere conteúdos dinâmicos cu
     - Quais requisitos obrigatórios que não foram entregues
 4. Informe ao recrutador quando concluir o desafio junto com o link do repositório
 5. Após revisão do projeto junto com a equipe de desenvolvimento deixe seu repositório privado
-
-
-
