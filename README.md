@@ -1,4 +1,4 @@
-+A Educação - Full Stack Web Developer
++A Educação - Engenheiro de Inteligência Artificial
 ===================
 
 [![N|Solid](https://maisaedu.com.br/hubfs/site-grupo-a/logo-mais-a-educacao.svg)](https://maisaedu.com.br/) 
