@@ -37,9 +37,9 @@ Construa um prompt interativo, utilizando as tecnologias que julgar apropriadas,
 Baseado nas interações analise as dificuldades e gere conteúdos dinâmicos curtos em diferentes formatos (vídeos, áudios, textos) para abordar as necessidades específicas de aprendizagem do usuário. Os conteúdos devem ser relevantes, informativos e adaptados ao nível de conhecimento do usuário.
 
 # Critérios de avaliação
-- Qualidade de escrita do código
-- Organização do projeto
-- Lógica da solução implementada
+- Qualidade de escrita do código.
+- Organização do projeto.
+- Lógica da solução implementada.
 - Capacidade de escolher as tecnologias apropriadas para indexação de dados e desenvolvimento do sistema de aprendizagem adaptativa.
 - Eficiência na manipulação de diferentes tipos de dados (textos, PDFs, vídeos).
 - Competência na construção de prompts de IA que geram conteúdos adaptativos dinâmicos.
