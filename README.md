@@ -15,7 +15,7 @@ O conjunto de dados definidos para este teste é de propriedade intelectual da +
 - **PDFs:** Livros e manuais introdutórios sobre o conteúdo abordado.  
 - **Vídeos:** Pequenos vídeos de dicas de professor, que explicam o conteúdo aborado. Os vídeos estão em formatos .mp4 
 
-O conjunto de dados pode ser obtido em 
+O conjunto de dados pode ser obtido em [clicando aqui](https://github.com/grupo-a/challenge-artificial-intelligence/tree/main/resources).
 
 # Requisitos
 ## Etapa 1: Indexação dos Dados: 
