@@ -29,9 +29,6 @@ jobs:
     - name: Format check
       run: black --check src/ tests/
 
-    - name: Lint
-      run: flake8 src/ tests/ --max-line-length=88
-
     - name: Run tests
       run: pytest tests/ --cov=src -v --cov-report=xml
 

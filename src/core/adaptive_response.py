@@ -3,7 +3,7 @@ Adaptive response generation functions for the Adaptive Learning System.
 """
 
 import logging
-from typing import Dict, Any, List
+from typing import Dict, Any
 from langsmith import traceable
 
 logger = logging.getLogger(__name__)
@@ -29,7 +29,10 @@ def generate_adaptive_response(
         str: Generated adaptive educational response
     """
     if not groq_client:
-        return "🤖 Desculpe, o serviço de IA não está configurado. Verifique as chaves de API."
+        return (
+            "🤖 Desculpe, o serviço de IA não está configurado. "
+            "Verifique as chaves de API."
+        )
 
     try:
         # Import required modules
@@ -56,7 +59,10 @@ def generate_adaptive_response(
         # Analyze question maturity and topics
         analysis = analyze_question_maturity(question, groq_client)
         if not analysis:
-            return "🤖 Desculpe, tive um problema ao analisar sua pergunta. A IA parece estar indisponível. Por favor, tente novamente em breve."
+            return (
+                "🤖 Desculpe, tive um problema ao analisar sua pergunta. "
+                "A IA parece estar indisponível. Por favor, tente novamente em breve."
+            )
 
         # Search for relevant content using the question and identified topics
         search_queries = [question] + analysis["topics"]
@@ -146,7 +152,8 @@ def generate_adaptive_response(
         """
 
         logger.info(
-            f"Generating adaptive response for {analysis['knowledge_level']} level question..."
+            f"Generating adaptive response for {analysis['knowledge_level']} "
+            f"level question..."
         )
         response = groq_client.chat.completions.create(
             model="llama-3.3-70b-versatile",
@@ -165,7 +172,10 @@ def generate_adaptive_response(
 
     except Exception as e:
         logger.error(f"Error generating adaptive response: {e}")
-        return "🤖 Desculpe, tive um problema ao gerar sua resposta. A IA parece estar indisponível. Por favor, tente novamente em breve."
+        return (
+            "🤖 Desculpe, tive um problema ao gerar sua resposta. "
+            "A IA parece estar indisponível. Por favor, tente novamente em breve."
+        )
 
 
 @traceable(name="generate_out_of_scope_response")

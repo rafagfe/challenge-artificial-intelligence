@@ -4,7 +4,6 @@ Refactored main application using modular functions.
 """
 import logging
 import streamlit as st
-from pathlib import Path
 from dotenv import load_dotenv
 import chromadb
 
@@ -30,10 +29,6 @@ from core.indexing import (
     load_index_state,
     save_index_state,
 )
-
-# Import media functions
-from media.audio_generator import generate_audio
-from media.video_generator import generate_video
 
 # Load environment variables
 load_dotenv()
@@ -160,7 +155,8 @@ def main():
     )
 
     # Initialize system components using a robust pattern
-    # The spinner runs on each script execution, but the guarded block runs only once per session.
+    # The spinner runs on each script execution, but the guarded block runs
+    # only once per session.
     with st.spinner("Inicializando e verificando conteúdo..."):
         if "db_initialized" not in st.session_state:
             # Initialize system
@@ -239,7 +235,8 @@ def initialize_application():
     Initialize the application (wrapper for setup_system).
     """
     st.set_page_config(
-        page_title="Sistema de Aprendizagem Adaptativa Refatorado", page_icon="📖"
+        page_title="Sistema de Aprendizagem Adaptativa Refatorado", 
+        page_icon="📖"
     )
 
     if "system_initialized" not in st.session_state:

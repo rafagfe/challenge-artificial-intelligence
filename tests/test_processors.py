@@ -2,7 +2,6 @@
 Tests for processors module.
 """
 
-import pytest
 import tempfile
 import json
 from pathlib import Path

@@ -2,9 +2,8 @@
 Tests for media generators module.
 """
 
-import pytest
 import tempfile
-from unittest.mock import Mock, patch, MagicMock
+from unittest.mock import Mock, patch
 from pathlib import Path
 import sys
 

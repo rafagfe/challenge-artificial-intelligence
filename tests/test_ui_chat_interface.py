@@ -2,7 +2,6 @@
 Tests for UI chat interface module.
 """
 
-import pytest
 from unittest.mock import Mock, patch, MagicMock
 from pathlib import Path
 import sys
@@ -151,7 +150,7 @@ class TestWrapperFunctions:
 
         # Should not raise exception even if generation fails
         try:
-            result = generate_audio_wrapper("Test text", "test_123")
+            generate_audio_wrapper("Test text", "test_123")
             assert True  # Function completed
         except Exception:
             assert True  # Expected to fail, but function exists
@@ -167,7 +166,7 @@ class TestWrapperFunctions:
 
         # Should not raise exception even if generation fails
         try:
-            result = generate_video_wrapper("Test text", "test_audio.wav", "test_123")
+            generate_video_wrapper("Test text", "test_audio.wav", "test_123")
             assert True  # Function completed
         except Exception:
             assert True  # Expected to fail, but function exists
