@@ -235,8 +235,7 @@ def initialize_application():
     Initialize the application (wrapper for setup_system).
     """
     st.set_page_config(
-        page_title="Sistema de Aprendizagem Adaptativa Refatorado", 
-        page_icon="📖"
+        page_title="Sistema de Aprendizagem Adaptativa Refatorado", page_icon="📖"
     )
 
     if "system_initialized" not in st.session_state:

@@ -109,6 +109,7 @@ class TestApplicationFlow:
         """Test processor error handling."""
         try:
             from processors.text_processor import process_text_file
+
             # Test with non-existent file
             result = process_text_file("/non/existent/file.txt")
             assert result is None
