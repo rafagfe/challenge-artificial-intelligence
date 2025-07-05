@@ -77,6 +77,7 @@ graph TD
 - **Quality Gates**: Código só integra após passar em todos os testes
 - **Security Scanning**: Análise automática de vulnerabilidades
 - **Pre-commit Hooks**: Formatação e validação automática no commit
+- **✅ Evidência Visual**: Pipeline executando 100% com sucesso (`evidencia_esteira_ci_github_actions_ok.jpg`)
 
 #### **3. Cobertura de Testes Robusta** (`'./tests'`)
 - **Arquivos de Teste**: Cobertura completa de todas as funcionalidades
@@ -200,6 +201,7 @@ src/
 - **Security Scanning**: Safety + Bandit para análise de vulnerabilidades
 - **Automation**: Execução automática em push/PR
 - **Pre-commit Integration**: Validação local + CI
+- **✅ Comprovação**: Pipeline 100% funcional com evidência visual documentada
 
 #### **7. Testes Automatizados com pytest**
 **Por que pytest:**
@@ -432,10 +434,11 @@ src/
 
 ## Evidências de Funcionamento
 
-### **9 Evidências Visuais Documentadas** (`./evidencias/`)
+### **10 Evidências Visuais Documentadas** (`./evidencias/`)
 - **Sistema Funcionando**: Aplicação + logs + testes passando
 - **Integração APIs**: OpenAI TTS + Groq LLM + LangSmith observabilidade
 - **Funcionalidades IA**: Guardrails + respostas contextuais + indexação
+- **Pipeline CI/CD**: GitHub Actions executando 100% com sucesso (`evidencia_esteira_ci_github_actions_ok.jpg`)
 
 ### **Métricas de Performance**
 - **Indexação**: 17 documentos em <2 min | **Busca**: <1s | **Resposta LLM**: <3s
