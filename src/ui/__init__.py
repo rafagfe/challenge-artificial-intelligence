@@ -1,6 +1,7 @@
 """
 UI components module.
 """
+
 from .components import (
     show_system_status,
     show_configuration_panel,
@@ -12,7 +13,7 @@ from .components import (
     show_metrics_dashboard,
     show_architecture_diagram,
     show_usage_examples,
-    create_file_uploader
+    create_file_uploader,
 )
 
 __all__ = [
@@ -26,5 +27,5 @@ __all__ = [
     "show_metrics_dashboard",
     "show_architecture_diagram",
     "show_usage_examples",
-    "create_file_uploader"
+    "create_file_uploader",
 ]
